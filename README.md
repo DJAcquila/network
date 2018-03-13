@@ -1,2 +1,2 @@
-# network
+# Network
 Some networking projects
