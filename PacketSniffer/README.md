@@ -17,18 +17,18 @@ A packet analyzer used for intercepting traffic on wireless networks is known as
 
 ### Protocol Datagrams
 
--***Ethernet Frame***
+*			- ***Ethernet Frame***
 
 ![Ethernet Datagram](img/ethernet.png)
 
--***IPv4 Frame***
+*			- ***IPv4 Frame***
 
 ![IP Frame](img/IP.png)
 
--***TCP Frame***
+*			- ***TCP Frame***
 
 ![TCP Frame](img/TCP.png)
 
--***UDP Frame***
+*			- ***UDP Frame***
 
 ![UDP Frame](img/UDP.png)
