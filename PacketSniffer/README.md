@@ -15,6 +15,20 @@ A packet analyzer used for intercepting traffic on wireless networks is known as
 - ***TCP***: The TCP is a protocol of the transport layer. It functionality involves reliability, error verification, and others. This protocol provides a communication service at an intermediate level between an application program and the Internet Protocol. It is an abstraction of the network connection to the application.
 - ***UDP***: Is the most simple protocol of the transport layer. UDP uses a communication without connection complexity. Provides checksums for data integrity and port numbers for addressing different functions at the source and destination of the datagram.
 
-### Protocol Frames
+### Protocol Datagrams
+
+-***Ethernet Frame***
 
 ![Ethernet Datagram](img/ethernet.png)
+
+-***IPv4 Frame***
+
+![IP Frame](img/IP.png)
+
+-***TCP Frame***
+
+![TCP Frame](img/TCP.png)
+
+-***UDP Frame***
+
+![UDP Frame](img/UDP.png)
