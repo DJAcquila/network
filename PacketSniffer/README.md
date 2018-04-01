@@ -17,9 +17,9 @@ A packet analyzer used for intercepting traffic on wireless networks is known as
 
 ### Protocol Datagrams
 
-| - ***Ethernet Frame*** |
-| --- | --- |
-| ![Ethernet Datagram](img/ethernet.png) |
+- ***Ethernet Frame***
+
+![Ethernet Datagram](img/ethernet.png)
 
 - ***IPv4 Frame***
 
