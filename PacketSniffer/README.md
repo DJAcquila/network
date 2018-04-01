@@ -1,7 +1,7 @@
 ## Usage
 
  ```shell
- $ python packetSniffer.py 
+ # python packetSniffer.py 
 ```
 - At the end of the execution of the analyzer, will have a file with name 'aux.pcap'. You can execute this file with wireshark to obtain more information about the tracking.
 
