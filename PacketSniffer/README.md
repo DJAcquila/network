@@ -17,4 +17,4 @@ A packet analyzer used for intercepting traffic on wireless networks is known as
 
 ### Protocol Frames
 
-![Ethernet Datagram](https://github.com/DJAcquila/network/tree/master/PacketSniffer/img/ethernet.png)
+![ethernet.png](https://github.com/DJAcquila/network/tree/master/PacketSniffer/img/ethernet.png)
