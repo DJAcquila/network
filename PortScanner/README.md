@@ -3,9 +3,9 @@
 A simple port scanner
 
 ## Usage
-'''shell
+```shell
 $ python portscan.py 127.0.0.1 "80 8080 23 39"
-'''
+```
 - At the end of the execution of the analyzer, will have a file with name 'aux.pcp'. You can execute this file with wireshark to obtain more information about the tracking.
 
 ## Port Scanner
