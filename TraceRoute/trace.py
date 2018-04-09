@@ -32,6 +32,7 @@ def main():
 
 		recv = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.getprotobyname('icmp'))
 		send = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.getprotobyname('udp'))
+		#Set the value of the given socket option
 		send.setsockopt(socket.SOL_IP, socket.IP_TTL, ttl)
 
 		#socket.setsockopt(level, optname, value)
@@ -57,10 +58,8 @@ def main():
 			#sys.stdout.write("Teste: %s\n" % c_addr[0])
 			
 			c_addr = c_addr[0]
-			try:
-				c_name = socket.gethostbyaddr(c_addr)[0]
-			except:
-				c_name = c_addr
+			
+			c_name = socket.gethostbyaddr(c_addr)[0]
 
 			flag = True
 
