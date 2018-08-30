@@ -1,2 +1,2 @@
 # Network
-Some networking projects
+Some computer networks projects
