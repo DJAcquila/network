@@ -16,9 +16,9 @@ server.connect((IP , PORT))
 while True:
 	sockets = [sys.stdin , server]
 	
-	legivel_sockets, gravar_socket, erro_socket = select.select(sockets,[],[])
+	read_sockets, write_socket, erro_socket = select.select(sockets,[],[])
 
-	for s in legivel_sockets:
+	for s in read_sockets:
 		if s == server:
 			mensagem = s.recv(1024)
 			print mensagem
